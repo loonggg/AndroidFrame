@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Widgets -->
+    <style name="Widget.App.TextView" parent="android:Widget.TextView">
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <!-- TODO 去掉 android:layout_height 和 android:layout_width -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!-- 大字体 -->
+    <style name="Widget.App.TextView.Large">
+        <item name="android:textSize">@dimen/font_size_large</item>
+    </style>
+
+    <style name="Widget.App.TextView.Large.White">
+        <item name="android:textColor">@color/font_color_white</item>
+    </style>
+
+</resources>
